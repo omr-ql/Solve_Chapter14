@@ -33,43 +33,7 @@ int Dayofyear ::numMonth[] = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12};
 int Dayofyear ::numDay[] = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10,
                             11, 12, 13, 14, 15, 16, 17, 18, 19, 20,
                             21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31};
-void Dayofyear ::print()
-{
-#include <iostream>
-    using namespace std;
-    class Dayofyear
-    {
-    private:
-        int day;
-        static string nameMonth[];
-        static int numMonth[];
-        static int numDay[];
 
-    public:
-        Dayofyear(int day)
-        {
-            this->day = day;
-        }
-        void print();
-    };
-    string Dayofyear ::nameMonth[] = {
-        "JUN",
-        "FEB",
-        "MAR",
-        "APR",
-        "MAY",
-        "JUN",
-        "JUL",
-        "AUG",
-        "SEP",
-        "OCT",
-        "NOV",
-        "DEC",
-    };
-    int Dayofyear ::numMonth[] = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12};
-    int Dayofyear ::numDay[] = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10,
-                                11, 12, 13, 14, 15, 16, 17, 18, 19, 20,
-                                21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31};
     void Dayofyear ::print()
     {
         if (day >= 1 && day <= 31)
